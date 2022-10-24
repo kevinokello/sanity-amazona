@@ -1,7 +1,7 @@
 import { Alert, CircularProgress, Grid } from "@mui/material";
-import axios from "axios";
+// import axios from "axios";
 import { useRouter } from "next/router";
-import { useSnackbar } from "notistack";
+// import { useSnackbar } from "notistack";
 import { useContext, useEffect, useState } from "react";
 import Layout from "../components/Layout";
 import ProductItem from "../components/ProductItem";

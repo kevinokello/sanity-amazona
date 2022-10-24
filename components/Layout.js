@@ -30,10 +30,10 @@ import NextLink from 'next/link';
 import classes from '../utils/classes';
 import { useContext, useEffect, useState } from 'react';
 import { Store } from '../utils/Store';
-import jsCookie from 'js-cookie';
+// import jsCookie from 'js-cookie';
 import { useRouter } from 'next/router';
-import axios from 'axios';
-import { useSnackbar } from 'notistack';
+// import axios from 'axios';
+// import { useSnackbar } from 'notistack';
 import { getError } from '../utils/error';
 
 export default function Layout({ title, description, children }) {
